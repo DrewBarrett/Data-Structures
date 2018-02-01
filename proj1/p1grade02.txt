@@ -1,0 +1,5 @@
+#887134##X   ==  -0: Passed equality test 1.
+#887134##X   ==  -0: Passed equality test 2.
+#887134##X   ==  -0: Passed equality test 3.
+#887134##X   ==  -0: Passed equality test 4.
+#887134# Reached end of main program.

@@ -1,0 +1,7 @@
+InnerCB dump(): m_size = 8
+[20] 21, [21] 22, [22] 23, [0] 24, [1] 25, [2] 26, [3] 27, [4] 28, 
+InnerCB dump(): m_size = 3
+[2] 26, [3] 27, [4] 28, 
+#887134##X   ==  -0: InnerCB size is correct.
+#887134##X   ==  -0: InnerCB items ordered correctly.
+#887134# Reached end of main program.

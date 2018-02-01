@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "xstring": "cpp",
+        "xtree": "cpp",
+        "ostream": "cpp",
+        "iosfwd": "cpp",
+        "xutility": "cpp",
+        "system_error": "cpp",
+        "xtr1common": "cpp",
+        "utility": "cpp",
+        "exception": "cpp",
+        "cmath": "cpp",
+        "xlocale": "cpp",
+        "ios": "cpp",
+        "xiosbase": "cpp",
+        "iostream": "cpp",
+        "set": "cpp"
+    }
+}

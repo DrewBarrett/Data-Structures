@@ -1,0 +1,6 @@
+ time ./t8.out 100000 3 5 2.0
+   time ./t8.out 200000 3 5 2.0
+   time ./t8.out 400000 3 5 2.0
+   time ./t9.out 100000 3 5 2.0
+   time ./t9.out 200000 3 5 2.0
+   time ./t9.out 400000 3 5 2.0

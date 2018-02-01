@@ -1,0 +1,25 @@
+
+-------------------
+Add 37 items
+
+-------------------
+Remove 23 items
+
+-------------------
+Add 53 items
+
+-------------------
+Should have approximately 7, 40, 70 items
+in InnerCBs 1, 2 and 3
+Total size = 117
+m_buffers[1]->size() = 7
+m_buffers[2]->size() = 40
+m_buffers[3]->size() = 70
+
+-------------------
+
+-------------------
+Remove 117items
+#887134##X   ==  -0: CBofCB is empty, it should be.
+#887134##X   ==  -0: no FIFO errors reported.
+#887134# Reached end of main program.

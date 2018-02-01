@@ -1,0 +1,38 @@
+
+-------------------
+Add 900 items
+
+-------------------
+Should have about 10, 20, 40, 80, 160, 320 & 270 items in InnerCBs 0 thru 6
+
+Total size = 900
+m_buffers[0]->size() = 10
+m_buffers[1]->size() = 20
+m_buffers[2]->size() = 40
+m_buffers[3]->size() = 80
+m_buffers[4]->size() = 160
+m_buffers[5]->size() = 320
+m_buffers[6]->size() = 270
+
+-------------------
+Remove 331 items
+
+-------------------
+Add 8000 items
+
+-------------------
+InnerCBs should wrap around.
+Should have about 299, 640, 1280, 2560, 3790 items in InnerCBs 5 6 0 1 2
+
+Total size = 8569
+m_buffers[5]->size() = 299
+m_buffers[6]->size() = 640
+m_buffers[0]->size() = 1280
+m_buffers[1]->size() = 2560
+m_buffers[2]->size() = 3790
+
+-------------------
+Remove 8569 items
+#887134##X   ==  -0: CBofCB is empty, it should be.
+#887134##X   ==  -0: no FIFO errors reported.
+#887134# Reached end of main program.
